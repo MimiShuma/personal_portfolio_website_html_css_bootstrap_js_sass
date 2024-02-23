@@ -1,0 +1,111 @@
+/* main body styles */
+#contact_container {
+    background-image: url(../images/bg-main.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#contact_us {
+    margin: 0;
+    padding: 205px 0px 92px 0px;
+    /* background-color: white; */
+}
+
+#contact_us section {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+}
+
+#contact_us a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact_us .support_section {
+    padding: 0;
+    padding-left: 150px;
+}
+
+#contact_us li {
+    display: inline-block;
+    width: 40px;
+}
+
+.bottom_utility {
+    padding: 0;
+}
+
+.bottom_utility #facebook:hover {
+    color: #3b5998 !important;
+}
+
+.bottom_utility #linkedin:hover {
+    color: #0A66C2 !important;
+}
+
+.bottom_utility #github:hover {
+    color: black !important;
+}
+
+.bottom_utility #youtube:hover {
+    color: red !important;
+}
+
+.bottom_utility #instagram:hover {
+    color: #ac57a1 !important;
+}
+
+.contact_section {
+    padding-left: 149px;
+}
+
+.support_section form input,
+textarea {
+    border: 0;
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+    background-color: transparent;
+}
+
+.support_section form label {
+    padding-top: 10px;
+}
+
+.pm-0 {
+    padding: 0;
+    margin: 0;
+}
+
+.fc-gray {
+    color: gray;
+}
+
+.btn {
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 8px 18px !important;
+    background-color: #f7cd6a !important;
+    font-weight: bold !important;
+    font-size: 17px !important;
+}
+
+.btn:hover {
+    background-color: #ffb300 !important;
+}
+
+/* footer style */
+#bottombar {
+    /* background-color: #f2f9fc; */
+    width: 100%;
+    text-align: right;
+}
+
+#bottombar span {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 30px;
+    padding-left: 30px;
+}

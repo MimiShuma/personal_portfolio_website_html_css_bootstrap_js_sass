@@ -1,0 +1,44 @@
+#reviews {
+    padding: 115px 300px 0px 300px;
+}
+
+table th {
+    margin: 0;
+    padding: 0px 25px 25px 20px;
+}
+
+table td {
+    margin: 0;
+    padding-bottom: 25px;
+    width: 790px;
+}
+
+table td form {
+    margin: 0;
+    padding: 0px 0px 0px 106px;
+}
+
+table td p {
+    font-size: 12px;
+}
+
+table td span {
+    font-size: 14px;
+}
+
+.form_txt_field {
+    height: 25px;
+    border: none;
+}
+
+.form_button {
+    border: none;
+    height: 30px;
+    background-color: #FFD43B;
+}
+
+#reviews form span {
+    border: 1px solid black;
+    display: block;
+    width: 761px;
+}

@@ -1,0 +1,95 @@
+/* footer styles */
+#bottombar {
+    width: 100%;
+    margin: 0;
+    margin-top: 30px;
+    padding: 50px 0px 50px 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#bottombar section {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+#bottombar a {
+    text-decoration: none;
+    color: black;
+}
+
+#bottombar .support_section {
+    padding: 0;
+    padding-left: 150px;
+}
+
+#bottombar li {
+    display: inline-block;
+    width: 40px;
+}
+
+.bottom_utility {
+    padding: 0;
+}
+
+.bottom_utility #facebook:hover {
+    color: #3b5998 !important;
+}
+
+.bottom_utility #linkedin:hover {
+    color: #0A66C2 !important;
+}
+
+.bottom_utility #github:hover {
+    color: black !important;
+}
+
+.bottom_utility #youtube:hover {
+    color: red !important;
+}
+
+.bottom_utility #instagram:hover {
+    color: #ac57a1 !important;
+}
+
+.contact_section {
+    padding-left: 149px;
+}
+
+.support_section form input,
+textarea {
+    border: 0;
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+    background-color: transparent;
+}
+
+.support_section form label {
+    padding-top: 10px;
+}
+
+.pm-0 {
+    padding: 0;
+    margin: 0;
+}
+
+.fc-gray {
+    color: gray;
+}
+
+.pl-1000 {
+    padding-left: 1000px !important;
+}
+
+.btn {
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 8px 18px !important;
+    background-color: #f7cd6a !important;
+    font-weight: bold !important;
+    font-size: 17px !important;
+}
+
+.btn:hover {
+    background-color: #ffb300 !important;
+}

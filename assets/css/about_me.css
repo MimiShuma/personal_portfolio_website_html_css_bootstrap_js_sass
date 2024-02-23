@@ -1,0 +1,23 @@
+#about_me {
+    padding-top: 115px;
+}
+
+#about_me .main_table td {
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 50px;
+    text-align: justify;
+}
+
+#about_me .sub_table td {
+    margin: 0;
+    padding: 3px;
+}
+
+.pl-200 {
+    padding-left: 200px !important;
+}
+
+.pr-200 {
+    padding-right: 200px !important;
+}
