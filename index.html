@@ -1,46 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio-Home</title>
-    <link rel="stylesheet" href="assets/css/header.css" />
-    <link rel="stylesheet" href="assets/css/footer.css" />
-    <link rel="stylesheet" href="assets/css/home.css" />
-    <link rel="stylesheet" href="assets/css/my_projects.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Personal Portfolio - Home</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/navbar.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
 </head>
 
 <body>
-    <div id="container1">
-        <header id="topbar">
-            <nav id="navbar">
-                <span class="logo"><a href="home.html"><img src="assets/images/logo.png"
-                            alt="logo of the page" /></a></span>
-                <ul class="utility">
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="about_me.html">About Me</a>
-                    </li>
-                    <li><a href="reviews.html">Reviews</a></li>
-                    <li><a href="my_projects.html">My
-                            Projects</a></li>
-                    <li><a href="contact.html">Contact Me</a>
-                    </li>
-                    <li><a href="#">Download CV</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main id="main_section">
-            <div id="intro_section">
-                <div class="intro_img"><img src="assets/images/intro-image.png" alt="photo of shuma" /></div>
-                <div class="intro_info">
-                    <h1>Shuma, a <i>Front-End Developer.</i></h1>
-                    <span><a href="#">shuma@domain.com</a></span>
+    <div class="bg_container" style="background-image: url('../assets/images/bg-main.png'); height: 100vh">
+        <!-- navigation bar -->
+        <nav class="navbar navbar-expand-lg fixed-top bg_color_dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="logo" class="logo_main"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><br></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 fc_white nav_hover_effect" aria-current="page"
+                                    href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 fc_white nav_hover_effect" href="about_me.html">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 fc_white nav_hover_effect" href="my_projects.html">My
+                                    Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 fc_white nav_hover_effect" href="reviews.html">Reviews</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 fc_white nav_hover_effect" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle fc_white nav_hover_effect" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Download Resume/Vcard
+                                </a>
+                                <ul class="dropdown-menu bg_gray txt_center">
+                                    <li><a class="dropdown-item fc_white utility_hover_effect" href="#">Resume</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider hr_divider_color_light" />
+                                    </li>
+                                    <li><a class="dropdown-item fc_white utility_hover_effect" href="#">Vcard</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+        </nav>
+        <!-- intro section -->
+        <div class="row intro_section">
+            <div class="col-6 img_section"><img src="assets/images/2.png" alt="photo of shuma" /></div>
+            <div class="col-6 heading_section">
+                <h1>Shuma, a <i>Front-End Developer.</i></h1>
+                <span><a href="#">shuma@domain.com</a></span>
+            </div>
+        </div>
+        <!-- </div>
             <div id="resume_section">
                 <div class="resume_intro">
                     <h1>This is Shumas' Resume</h1>
@@ -283,8 +316,13 @@
                 <p>Copyright&copy; 2024 Personal Portfolio of Shuma</p>
                 <span><img src="assets/images/w3certification.png" alt="w3 certification logo" /></span>
             </section>
-        </footer>
+        </footer> -->
     </div>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

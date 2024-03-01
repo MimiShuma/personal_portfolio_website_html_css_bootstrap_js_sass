@@ -1,0 +1,43 @@
+.bg_container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+}
+
+.logo_main {
+    width: 100px;
+}
+
+.bg_color_dark {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.fc_white {
+    color: rgb(184, 182, 182) !important;
+}
+
+.bg_black {
+    background-color: black !important;
+}
+
+.bg_gray {
+    background-color: rgba(33, 31, 31, 0.5) !important;
+}
+
+.hr_divider_color_light {
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+.txt_center {
+    text-align: center;
+}
+
+.nav_hover_effect:hover {
+    color: white !important;
+}
+
+.utility_hover_effect:hover {
+    color: rgb(255, 254, 254) !important;
+    background-color: transparent !important;
+}

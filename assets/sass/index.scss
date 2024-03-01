@@ -1,0 +1,28 @@
+.intro_section {
+    padding: 7%;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .img_section {
+        img {
+            width: 70%;
+        }
+    }
+
+    .heading_section {
+        justify-items: baseline;
+
+        h1 {
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 1.5rem;
+        }
+    }
+}
