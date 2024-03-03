@@ -1,10 +1,10 @@
+@import "mixins";
+@import "variables";
+
 .intro_section {
-    padding: 7%;
-    width: 100%;
-    height: auto;
-    align-items: center;
-    justify-content: center;
+    @include content_style;
     text-align: center;
+    padding-top: 8% !important;
 
     .img_section {
         img {
@@ -25,4 +25,42 @@
             font-size: 1.5rem;
         }
     }
+}
+
+.resume_section {
+    @include content_style;
+    text-align: justify;
+    color: $text_color_white;
+
+    .resume_intro {
+        .resume_info {
+            table {
+                tr {
+                    text-align: left;
+
+                    td {
+                        padding-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .resume_img {
+        text-align: center;
+    }
+}
+
+.project_preview {
+    @include content_style;
+    color: $text_color_white !important;
+
+}
+
+.bg_black {
+    background-color: black;
+}
+
+.border_black {
+    border-color: black;
 }
