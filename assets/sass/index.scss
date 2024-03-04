@@ -1,6 +1,10 @@
 @import "mixins";
 @import "variables";
 
+.font_color_w {
+    color: white;
+}
+
 .intro_section {
     @include content_style;
     text-align: center;
@@ -57,10 +61,39 @@
 
 }
 
+.homepage_reviews {
+    @include content_style;
+    color: $text_color_white !important;
+    text-align: center;
+}
+
+.faq_section {
+    @include content_style;
+
+    fieldset {
+        border: 1px solid white;
+    }
+
+    .faq_table {
+        width: 100%;
+
+        tr {
+            td {
+                padding: 1% 2%;
+                border-bottom: 1px solid white;
+            }
+        }
+    }
+}
+
 .bg_black {
     background-color: black;
 }
 
 .border_black {
     border-color: black;
+}
+
+.border_rw {
+    border-right: 1px solid white;
 }

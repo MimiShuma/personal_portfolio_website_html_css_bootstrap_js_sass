@@ -1,3 +1,7 @@
+.font_color_w {
+  color: white;
+}
+
 .intro_section {
   padding: 2% !important;
   height: auto !important;
@@ -47,12 +51,42 @@
   color: white !important;
 }
 
+.homepage_reviews {
+  padding: 2% !important;
+  height: auto !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: white !important;
+  text-align: center;
+}
+
+.faq_section {
+  padding: 2% !important;
+  height: auto !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.faq_section fieldset {
+  border: 1px solid white;
+}
+.faq_section .faq_table {
+  width: 100%;
+}
+.faq_section .faq_table tr td {
+  padding: 1% 2%;
+  border-bottom: 1px solid white;
+}
+
 .bg_black {
   background-color: black;
 }
 
 .border_black {
   border-color: black;
+}
+
+.border_rw {
+  border-right: 1px solid white;
 }
 
 /*# sourceMappingURL=index.css.map */
